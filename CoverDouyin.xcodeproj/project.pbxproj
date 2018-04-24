@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CADAE71F55EFF06D588EF4 /* Pods_CoverDouyin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C8042F0515F6AE8BD67DC7 /* Pods_CoverDouyin.framework */; };
+		471F512B208DC01B0037A0E1 /* ZDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F512A208DC01B0037A0E1 /* ZDNavigationController.m */; };
+		471F512E208DC0450037A0E1 /* ZDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F512D208DC0450037A0E1 /* ZDTabBarController.m */; };
+		471F5134208DD6740037A0E1 /* ZDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5133208DD6740037A0E1 /* ZDMainViewController.m */; };
+		471F5137208DD6890037A0E1 /* ZDAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5136208DD6890037A0E1 /* ZDAttentionViewController.m */; };
+		471F513A208DD6910037A0E1 /* ZDMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5139208DD6910037A0E1 /* ZDMessageViewController.m */; };
+		471F513D208DD69C0037A0E1 /* ZDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F513C208DD69C0037A0E1 /* ZDMineViewController.m */; };
+		471F5143208EBCB50037A0E1 /* ZDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5142208EBCB50037A0E1 /* ZDTabBar.m */; };
+		471F5146208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5144208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m */; };
+		471FA11C20807EFA0045D984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 471FA11B20807EFA0045D984 /* AppDelegate.m */; };
+		471FA12220807EFA0045D984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FA12020807EFA0045D984 /* Main.storyboard */; };
+		471FA12420807EFA0045D984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471FA12320807EFA0045D984 /* Assets.xcassets */; };
+		471FA12720807EFA0045D984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FA12520807EFA0045D984 /* LaunchScreen.storyboard */; };
+		471FA12A20807EFA0045D984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 471FA12920807EFA0045D984 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		471F5129208DC01B0037A0E1 /* ZDNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDNavigationController.h; sourceTree = "<group>"; };
+		471F512A208DC01B0037A0E1 /* ZDNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDNavigationController.m; sourceTree = "<group>"; };
+		471F512C208DC0450037A0E1 /* ZDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDTabBarController.h; sourceTree = "<group>"; };
+		471F512D208DC0450037A0E1 /* ZDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDTabBarController.m; sourceTree = "<group>"; };
+		471F5132208DD6740037A0E1 /* ZDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDMainViewController.h; sourceTree = "<group>"; };
+		471F5133208DD6740037A0E1 /* ZDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDMainViewController.m; sourceTree = "<group>"; };
+		471F5135208DD6890037A0E1 /* ZDAttentionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDAttentionViewController.h; sourceTree = "<group>"; };
+		471F5136208DD6890037A0E1 /* ZDAttentionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDAttentionViewController.m; sourceTree = "<group>"; };
+		471F5138208DD6910037A0E1 /* ZDMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDMessageViewController.h; sourceTree = "<group>"; };
+		471F5139208DD6910037A0E1 /* ZDMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDMessageViewController.m; sourceTree = "<group>"; };
+		471F513B208DD69C0037A0E1 /* ZDMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDMineViewController.h; sourceTree = "<group>"; };
+		471F513C208DD69C0037A0E1 /* ZDMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDMineViewController.m; sourceTree = "<group>"; };
+		471F5141208EBCB50037A0E1 /* ZDTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDTabBar.h; sourceTree = "<group>"; };
+		471F5142208EBCB50037A0E1 /* ZDTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDTabBar.m; sourceTree = "<group>"; };
+		471F5144208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HiddenSystemBar.m"; sourceTree = "<group>"; };
+		471F5145208EBE270037A0E1 /* UITabBar+HiddenSystemBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HiddenSystemBar.h"; sourceTree = "<group>"; };
+		471FA11720807EFA0045D984 /* CoverDouyin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverDouyin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		471FA11A20807EFA0045D984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		471FA11B20807EFA0045D984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		471FA12120807EFA0045D984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		471FA12320807EFA0045D984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		471FA12620807EFA0045D984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		471FA12820807EFA0045D984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471FA12920807EFA0045D984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		471FA130208081FE0045D984 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		471FA131208083570045D984 /* GlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+		668FD19510C4AEA0B1D5E7F5 /* Pods-CoverDouyin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverDouyin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoverDouyin/Pods-CoverDouyin.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C8042F0515F6AE8BD67DC7 /* Pods_CoverDouyin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverDouyin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4828C7A983848088F89AAE6 /* Pods-CoverDouyin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverDouyin.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoverDouyin/Pods-CoverDouyin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		471FA11420807EFA0045D984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CADAE71F55EFF06D588EF4 /* Pods_CoverDouyin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199FED9E4B0CB0AC6877C8F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C8042F0515F6AE8BD67DC7 /* Pods_CoverDouyin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471F5147208F0E9B0037A0E1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				471F5148208F0EA60037A0E1 /* Main */,
+				471F514A208F0EB10037A0E1 /* Post */,
+				471F514B208F0EB30037A0E1 /* Attention */,
+				471F5149208F0EAF0037A0E1 /* Message */,
+				471F514D208F0F0E0037A0E1 /* Mine */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		471F5148208F0EA60037A0E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				471F5132208DD6740037A0E1 /* ZDMainViewController.h */,
+				471F5133208DD6740037A0E1 /* ZDMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		471F5149208F0EAF0037A0E1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				471F5138208DD6910037A0E1 /* ZDMessageViewController.h */,
+				471F5139208DD6910037A0E1 /* ZDMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		471F514A208F0EB10037A0E1 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		471F514B208F0EB30037A0E1 /* Attention */ = {
+			isa = PBXGroup;
+			children = (
+				471F5135208DD6890037A0E1 /* ZDAttentionViewController.h */,
+				471F5136208DD6890037A0E1 /* ZDAttentionViewController.m */,
+			);
+			path = Attention;
+			sourceTree = "<group>";
+		};
+		471F514D208F0F0E0037A0E1 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				471F513B208DD69C0037A0E1 /* ZDMineViewController.h */,
+				471F513C208DD69C0037A0E1 /* ZDMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		471F514E208F0F4E0037A0E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				471FA11A20807EFA0045D984 /* AppDelegate.h */,
+				471FA11B20807EFA0045D984 /* AppDelegate.m */,
+				471F512C208DC0450037A0E1 /* ZDTabBarController.h */,
+				471F512D208DC0450037A0E1 /* ZDTabBarController.m */,
+				471F5141208EBCB50037A0E1 /* ZDTabBar.h */,
+				471F5142208EBCB50037A0E1 /* ZDTabBar.m */,
+				471F5145208EBE270037A0E1 /* UITabBar+HiddenSystemBar.h */,
+				471F5144208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m */,
+				471F5129208DC01B0037A0E1 /* ZDNavigationController.h */,
+				471F512A208DC01B0037A0E1 /* ZDNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		471F514F208F0F750037A0E1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		471F5150208F0FAF0037A0E1 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				471FA130208081FE0045D984 /* PrefixHeader.pch */,
+				471F5152208F0FCD0037A0E1 /* Macros */,
+				471F5151208F0FCC0037A0E1 /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		471F5151208F0FCC0037A0E1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		471F5152208F0FCD0037A0E1 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				471FA131208083570045D984 /* GlobalDefine.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		471F5158208F10020037A0E1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				471FA12020807EFA0045D984 /* Main.storyboard */,
+				471FA12320807EFA0045D984 /* Assets.xcassets */,
+				471FA12520807EFA0045D984 /* LaunchScreen.storyboard */,
+				471FA12820807EFA0045D984 /* Info.plist */,
+				471FA12920807EFA0045D984 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		471FA10E20807EFA0045D984 = {
+			isa = PBXGroup;
+			children = (
+				471FA11920807EFA0045D984 /* CoverDouyin */,
+				471FA11820807EFA0045D984 /* Products */,
+				BFADA35093E2DDC73A020D87 /* Pods */,
+				199FED9E4B0CB0AC6877C8F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		471FA11820807EFA0045D984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				471FA11720807EFA0045D984 /* CoverDouyin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471FA11920807EFA0045D984 /* CoverDouyin */ = {
+			isa = PBXGroup;
+			children = (
+				471F5147208F0E9B0037A0E1 /* Class */,
+				471F514E208F0F4E0037A0E1 /* Main */,
+				471F514F208F0F750037A0E1 /* Base */,
+				471F5150208F0FAF0037A0E1 /* Expand */,
+				471F5158208F10020037A0E1 /* Other */,
+			);
+			path = CoverDouyin;
+			sourceTree = "<group>";
+		};
+		BFADA35093E2DDC73A020D87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				668FD19510C4AEA0B1D5E7F5 /* Pods-CoverDouyin.debug.xcconfig */,
+				E4828C7A983848088F89AAE6 /* Pods-CoverDouyin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471FA11620807EFA0045D984 /* CoverDouyin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471FA12D20807EFA0045D984 /* Build configuration list for PBXNativeTarget "CoverDouyin" */;
+			buildPhases = (
+				3053F19FA98D06831DC3FD4A /* [CP] Check Pods Manifest.lock */,
+				471FA11320807EFA0045D984 /* Sources */,
+				471FA11420807EFA0045D984 /* Frameworks */,
+				471FA11520807EFA0045D984 /* Resources */,
+				6C0BB23DA68754A5DE5F8892 /* [CP] Embed Pods Frameworks */,
+				A6B8B421F6C302F4CB70666F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoverDouyin;
+			productName = CoverDouyin;
+			productReference = 471FA11720807EFA0045D984 /* CoverDouyin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		471FA10F20807EFA0045D984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZD;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ganglv;
+				TargetAttributes = {
+					471FA11620807EFA0045D984 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 471FA11220807EFA0045D984 /* Build configuration list for PBXProject "CoverDouyin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 471FA10E20807EFA0045D984;
+			productRefGroup = 471FA11820807EFA0045D984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471FA11620807EFA0045D984 /* CoverDouyin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471FA11520807EFA0045D984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471FA12720807EFA0045D984 /* LaunchScreen.storyboard in Resources */,
+				471FA12420807EFA0045D984 /* Assets.xcassets in Resources */,
+				471FA12220807EFA0045D984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3053F19FA98D06831DC3FD4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoverDouyin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0BB23DA68754A5DE5F8892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoverDouyin/Pods-CoverDouyin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoverDouyin/Pods-CoverDouyin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B8B421F6C302F4CB70666F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoverDouyin/Pods-CoverDouyin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		471FA11320807EFA0045D984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471F5137208DD6890037A0E1 /* ZDAttentionViewController.m in Sources */,
+				471FA12A20807EFA0045D984 /* main.m in Sources */,
+				471F512B208DC01B0037A0E1 /* ZDNavigationController.m in Sources */,
+				471F513D208DD69C0037A0E1 /* ZDMineViewController.m in Sources */,
+				471F5146208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m in Sources */,
+				471F5134208DD6740037A0E1 /* ZDMainViewController.m in Sources */,
+				471F5143208EBCB50037A0E1 /* ZDTabBar.m in Sources */,
+				471F512E208DC0450037A0E1 /* ZDTabBarController.m in Sources */,
+				471F513A208DD6910037A0E1 /* ZDMessageViewController.m in Sources */,
+				471FA11C20807EFA0045D984 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		471FA12020807EFA0045D984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471FA12120807EFA0045D984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		471FA12520807EFA0045D984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471FA12620807EFA0045D984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		471FA12B20807EFA0045D984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		471FA12C20807EFA0045D984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		471FA12E20807EFA0045D984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668FD19510C4AEA0B1D5E7F5 /* Pods-CoverDouyin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q67T9F487;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoverDouyin/PrefixHeader.pch";
+				INFOPLIST_FILE = CoverDouyin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuda.CoverDouyin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+			};
+			name = Debug;
+		};
+		471FA12F20807EFA0045D984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4828C7A983848088F89AAE6 /* Pods-CoverDouyin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q67T9F487;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoverDouyin/PrefixHeader.pch";
+				INFOPLIST_FILE = CoverDouyin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuda.CoverDouyin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471FA11220807EFA0045D984 /* Build configuration list for PBXProject "CoverDouyin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471FA12B20807EFA0045D984 /* Debug */,
+				471FA12C20807EFA0045D984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471FA12D20807EFA0045D984 /* Build configuration list for PBXNativeTarget "CoverDouyin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471FA12E20807EFA0045D984 /* Debug */,
+				471FA12F20807EFA0045D984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 471FA10F20807EFA0045D984 /* Project object */;
+}

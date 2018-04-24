@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  CoverDouyin
+//
+//  Created by 4wd-ios on 2018/4/13.
+//  Copyright © 2018年 ganglv. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "GlobalDefine.h"
+
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MJExtension.h"
+
+#endif /* PrefixHeader_pch */
