@@ -12,6 +12,8 @@
 #import "ZDAttentionViewController.h"
 #import "ZDMessageViewController.h"
 #import "ZDMineViewController.h"
+#import "ZDChooseMusicVC.h"
+#import "ZDNavigationController.h"
 
 @interface ZDTabBarController () <ZDTabBarDelegate>
 
@@ -47,7 +49,10 @@
 #pragma mark - ZDTabBarDelegate -
 
 -(void)tabBarClickPlusButton:(ZDTabBar *)tabBar{
-    
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    ZDChooseMusicVC *vc = [[ZDChooseMusicVC alloc] init];
+    ZDNavigationController *nvc = [[ZDNavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nvc animated:YES completion:nil];
 }
 
 -(void)tabBar:(ZDTabBar *)tabBar didSelectedButtonFrom:(NSInteger)from to:(NSInteger)to{

@@ -1,27 +1,27 @@
 //
-//  ZDNavigationController.m
+//  ZDShootViewController.m
 //  CoverDouyin
 //
-//  Created by 4wd-ios on 2018/4/23.
+//  Created by 4wd-ios on 2018/4/24.
 //  Copyright © 2018年 ganglv. All rights reserved.
 //
 
-#import "ZDNavigationController.h"
+#import "ZDShootViewController.h"
+#import "ZDPermissionView.h"
+#import "ZDPermissionManager.h"
 
-@interface ZDNavigationController () <UIGestureRecognizerDelegate>
+@interface ZDShootViewController ()
 
 @end
 
-@implementation ZDNavigationController
+@implementation ZDShootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.interactivePopGestureRecognizer.delegate = (id)self;
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    self.navigationBar.barTintColor = [UIColor blackColor];
-    self.navigationBar.translucent = NO;
-    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    NSLog(@"---%ld", [ZDPermissionManager checkWhetherPermissionView]);
 }
 
 - (void)didReceiveMemoryWarning {

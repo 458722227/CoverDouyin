@@ -1,27 +1,22 @@
 //
-//  ZDNavigationController.m
+//  ZDPostViewController.m
 //  CoverDouyin
 //
-//  Created by 4wd-ios on 2018/4/23.
+//  Created by 4wd-ios on 2018/4/24.
 //  Copyright © 2018年 ganglv. All rights reserved.
 //
 
-#import "ZDNavigationController.h"
+#import "ZDPostViewController.h"
 
-@interface ZDNavigationController () <UIGestureRecognizerDelegate>
+@interface ZDPostViewController ()
 
 @end
 
-@implementation ZDNavigationController
+@implementation ZDPostViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.interactivePopGestureRecognizer.delegate = (id)self;
-    
-    self.navigationBar.barTintColor = [UIColor blackColor];
-    self.navigationBar.translucent = NO;
-    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

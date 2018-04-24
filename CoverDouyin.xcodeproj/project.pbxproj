@@ -16,6 +16,15 @@
 		471F513D208DD69C0037A0E1 /* ZDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F513C208DD69C0037A0E1 /* ZDMineViewController.m */; };
 		471F5143208EBCB50037A0E1 /* ZDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5142208EBCB50037A0E1 /* ZDTabBar.m */; };
 		471F5146208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5144208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m */; };
+		471F515B208F15890037A0E1 /* 我乐意.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 471F515A208F15890037A0E1 /* 我乐意.m4a */; };
+		471F515D208F15930037A0E1 /* 春风吹（Cover 方大同）.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 471F515C208F15930037A0E1 /* 春风吹（Cover 方大同）.m4a */; };
+		471F5160208F17530037A0E1 /* ZDShootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F515F208F17530037A0E1 /* ZDShootViewController.m */; };
+		471F5163208F17750037A0E1 /* ZDChooseMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5162208F17750037A0E1 /* ZDChooseMusicVC.m */; };
+		471F5169208F18150037A0E1 /* ZDEditVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5168208F18150037A0E1 /* ZDEditVideoVC.m */; };
+		471F516C208F183B0037A0E1 /* ZDPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F516B208F183B0037A0E1 /* ZDPostViewController.m */; };
+		471F516F208F1D800037A0E1 /* ZDPermissionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F516E208F1D800037A0E1 /* ZDPermissionView.m */; };
+		471F5171208F1D880037A0E1 /* ZDPermissionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471F5170208F1D880037A0E1 /* ZDPermissionView.xib */; };
+		471F5174208F2BD70037A0E1 /* ZDPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5173208F2BD70037A0E1 /* ZDPermissionManager.m */; };
 		471FA11C20807EFA0045D984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 471FA11B20807EFA0045D984 /* AppDelegate.m */; };
 		471FA12220807EFA0045D984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FA12020807EFA0045D984 /* Main.storyboard */; };
 		471FA12420807EFA0045D984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471FA12320807EFA0045D984 /* Assets.xcassets */; };
@@ -40,6 +49,21 @@
 		471F5142208EBCB50037A0E1 /* ZDTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDTabBar.m; sourceTree = "<group>"; };
 		471F5144208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HiddenSystemBar.m"; sourceTree = "<group>"; };
 		471F5145208EBE270037A0E1 /* UITabBar+HiddenSystemBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HiddenSystemBar.h"; sourceTree = "<group>"; };
+		471F515A208F15890037A0E1 /* 我乐意.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我乐意.m4a"; sourceTree = "<group>"; };
+		471F515C208F15930037A0E1 /* 春风吹（Cover 方大同）.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "春风吹（Cover 方大同）.m4a"; sourceTree = "<group>"; };
+		471F515E208F17530037A0E1 /* ZDShootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDShootViewController.h; sourceTree = "<group>"; };
+		471F515F208F17530037A0E1 /* ZDShootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDShootViewController.m; sourceTree = "<group>"; };
+		471F5161208F17750037A0E1 /* ZDChooseMusicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDChooseMusicVC.h; sourceTree = "<group>"; };
+		471F5162208F17750037A0E1 /* ZDChooseMusicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDChooseMusicVC.m; sourceTree = "<group>"; };
+		471F5167208F18150037A0E1 /* ZDEditVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDEditVideoVC.h; sourceTree = "<group>"; };
+		471F5168208F18150037A0E1 /* ZDEditVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDEditVideoVC.m; sourceTree = "<group>"; };
+		471F516A208F183B0037A0E1 /* ZDPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPostViewController.h; sourceTree = "<group>"; };
+		471F516B208F183B0037A0E1 /* ZDPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPostViewController.m; sourceTree = "<group>"; };
+		471F516D208F1D800037A0E1 /* ZDPermissionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPermissionView.h; sourceTree = "<group>"; };
+		471F516E208F1D800037A0E1 /* ZDPermissionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPermissionView.m; sourceTree = "<group>"; };
+		471F5170208F1D880037A0E1 /* ZDPermissionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZDPermissionView.xib; sourceTree = "<group>"; };
+		471F5172208F2BD70037A0E1 /* ZDPermissionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPermissionManager.h; sourceTree = "<group>"; };
+		471F5173208F2BD70037A0E1 /* ZDPermissionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPermissionManager.m; sourceTree = "<group>"; };
 		471FA11720807EFA0045D984 /* CoverDouyin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverDouyin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		471FA11A20807EFA0045D984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		471FA11B20807EFA0045D984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +132,17 @@
 		471F514A208F0EB10037A0E1 /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				471F5161208F17750037A0E1 /* ZDChooseMusicVC.h */,
+				471F5162208F17750037A0E1 /* ZDChooseMusicVC.m */,
+				471F515E208F17530037A0E1 /* ZDShootViewController.h */,
+				471F515F208F17530037A0E1 /* ZDShootViewController.m */,
+				471F5167208F18150037A0E1 /* ZDEditVideoVC.h */,
+				471F5168208F18150037A0E1 /* ZDEditVideoVC.m */,
+				471F516A208F183B0037A0E1 /* ZDPostViewController.h */,
+				471F516B208F183B0037A0E1 /* ZDPostViewController.m */,
+				471F516D208F1D800037A0E1 /* ZDPermissionView.h */,
+				471F516E208F1D800037A0E1 /* ZDPermissionView.m */,
+				471F5170208F1D880037A0E1 /* ZDPermissionView.xib */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -147,13 +182,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		471F514F208F0F750037A0E1 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		471F5150208F0FAF0037A0E1 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +195,8 @@
 		471F5151208F0FCC0037A0E1 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				471F5172208F2BD70037A0E1 /* ZDPermissionManager.h */,
+				471F5173208F2BD70037A0E1 /* ZDPermissionManager.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -179,16 +209,13 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
-		471F5158208F10020037A0E1 /* Other */ = {
+		471F5159208F15730037A0E1 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				471FA12020807EFA0045D984 /* Main.storyboard */,
-				471FA12320807EFA0045D984 /* Assets.xcassets */,
-				471FA12520807EFA0045D984 /* LaunchScreen.storyboard */,
-				471FA12820807EFA0045D984 /* Info.plist */,
-				471FA12920807EFA0045D984 /* main.m */,
+				471F515A208F15890037A0E1 /* 我乐意.m4a */,
+				471F515C208F15930037A0E1 /* 春风吹（Cover 方大同）.m4a */,
 			);
-			path = Other;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		471FA10E20807EFA0045D984 = {
@@ -214,9 +241,13 @@
 			children = (
 				471F5147208F0E9B0037A0E1 /* Class */,
 				471F514E208F0F4E0037A0E1 /* Main */,
-				471F514F208F0F750037A0E1 /* Base */,
 				471F5150208F0FAF0037A0E1 /* Expand */,
-				471F5158208F10020037A0E1 /* Other */,
+				471F5159208F15730037A0E1 /* Resource */,
+				471FA12020807EFA0045D984 /* Main.storyboard */,
+				471FA12320807EFA0045D984 /* Assets.xcassets */,
+				471FA12520807EFA0045D984 /* LaunchScreen.storyboard */,
+				471FA12820807EFA0045D984 /* Info.plist */,
+				471FA12920807EFA0045D984 /* main.m */,
 			);
 			path = CoverDouyin;
 			sourceTree = "<group>";
@@ -292,9 +323,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471F515D208F15930037A0E1 /* 春风吹（Cover 方大同）.m4a in Resources */,
 				471FA12720807EFA0045D984 /* LaunchScreen.storyboard in Resources */,
 				471FA12420807EFA0045D984 /* Assets.xcassets in Resources */,
+				471F5171208F1D880037A0E1 /* ZDPermissionView.xib in Resources */,
 				471FA12220807EFA0045D984 /* Main.storyboard in Resources */,
+				471F515B208F15890037A0E1 /* 我乐意.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,13 +398,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				471F5137208DD6890037A0E1 /* ZDAttentionViewController.m in Sources */,
+				471F516F208F1D800037A0E1 /* ZDPermissionView.m in Sources */,
+				471F5174208F2BD70037A0E1 /* ZDPermissionManager.m in Sources */,
 				471FA12A20807EFA0045D984 /* main.m in Sources */,
+				471F516C208F183B0037A0E1 /* ZDPostViewController.m in Sources */,
 				471F512B208DC01B0037A0E1 /* ZDNavigationController.m in Sources */,
 				471F513D208DD69C0037A0E1 /* ZDMineViewController.m in Sources */,
 				471F5146208EBE270037A0E1 /* UITabBar+HiddenSystemBar.m in Sources */,
+				471F5160208F17530037A0E1 /* ZDShootViewController.m in Sources */,
 				471F5134208DD6740037A0E1 /* ZDMainViewController.m in Sources */,
 				471F5143208EBCB50037A0E1 /* ZDTabBar.m in Sources */,
 				471F512E208DC0450037A0E1 /* ZDTabBarController.m in Sources */,
+				471F5169208F18150037A0E1 /* ZDEditVideoVC.m in Sources */,
+				471F5163208F17750037A0E1 /* ZDChooseMusicVC.m in Sources */,
 				471F513A208DD6910037A0E1 /* ZDMessageViewController.m in Sources */,
 				471FA11C20807EFA0045D984 /* AppDelegate.m in Sources */,
 			);
@@ -510,8 +550,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q67T9F487;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/CoverDouyin/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoverDouyin/Expand/PrefixHeader.pch";
 				INFOPLIST_FILE = CoverDouyin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuda.CoverDouyin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,8 +569,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q67T9F487;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/CoverDouyin/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoverDouyin/Expand/PrefixHeader.pch";
 				INFOPLIST_FILE = CoverDouyin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuda.CoverDouyin;
 				PRODUCT_NAME = "$(TARGET_NAME)";

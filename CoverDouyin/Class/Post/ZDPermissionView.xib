@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZDPermissionView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="拍摄你的生活故事" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHs-jn-D3p">
+                    <rect key="frame" x="74" y="210" width="227" height="33.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="允许访问即可进入拍摄" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVH-do-AOr">
+                    <rect key="frame" x="100.5" y="253.5" width="173.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.58823529411764708" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dah-LR-4Op">
+                    <rect key="frame" x="112.5" y="354.5" width="150" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="7Po-ol-hU4"/>
+                        <constraint firstAttribute="height" constant="35" id="wXZ-P2-6yV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="启用相机访问权限">
+                        <color key="titleColor" red="0.49803921568627452" green="0.93725490196078431" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="enableCameraClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="EPx-BF-9dP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbE-Af-L23">
+                    <rect key="frame" x="104.5" y="429.5" width="165" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="fTs-qU-NXb"/>
+                        <constraint firstAttribute="width" constant="165" id="na6-R3-eSh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="启用麦克风访问权限">
+                        <color key="titleColor" red="0.49803921569999998" green="0.93725490199999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="enableMicrophoneClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="ib6-SK-zba"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Dah-LR-4Op" firstAttribute="centerX" secondItem="gHs-jn-D3p" secondAttribute="centerX" id="7dc-7s-IQ5"/>
+                <constraint firstItem="TbE-Af-L23" firstAttribute="centerX" secondItem="gHs-jn-D3p" secondAttribute="centerX" id="CTb-mX-ts9"/>
+                <constraint firstItem="pVH-do-AOr" firstAttribute="centerX" secondItem="gHs-jn-D3p" secondAttribute="centerX" id="E8O-hT-il3"/>
+                <constraint firstItem="gHs-jn-D3p" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="FM4-NV-UYT"/>
+                <constraint firstItem="TbE-Af-L23" firstAttribute="top" secondItem="Dah-LR-4Op" secondAttribute="bottom" constant="40" id="OGV-bG-xs5"/>
+                <constraint firstItem="Dah-LR-4Op" firstAttribute="top" secondItem="pVH-do-AOr" secondAttribute="bottom" constant="80" id="bnN-0X-jbP"/>
+                <constraint firstItem="pVH-do-AOr" firstAttribute="top" secondItem="gHs-jn-D3p" secondAttribute="bottom" constant="10" id="n4n-ed-ZWQ"/>
+                <constraint firstItem="gHs-jn-D3p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="210" id="pQa-E7-jeC"/>
+            </constraints>
+            <connections>
+                <outlet property="enableCameraBtn" destination="Dah-LR-4Op" id="x5B-xH-lKv"/>
+                <outlet property="enableMicrophoneBtn" destination="TbE-Af-L23" id="7kx-qo-dQ8"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>
